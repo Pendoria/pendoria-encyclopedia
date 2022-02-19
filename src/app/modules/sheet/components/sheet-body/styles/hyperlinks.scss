@@ -1,0 +1,15 @@
+$hyperlink-color: rgb(83, 155, 245);
+
+a {
+
+    color: $hyperlink-color;
+    text-decoration: none;
+
+    &:hover {
+
+        cursor: pointer;
+        text-decoration: underline;
+
+    }
+
+}

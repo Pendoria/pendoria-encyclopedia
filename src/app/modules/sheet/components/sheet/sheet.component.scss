@@ -1,0 +1,101 @@
+.sheet-wrapper-component {
+
+    display: block;
+
+    max-width: 896px;
+    width: calc(100% - 40px);
+
+    margin-right: auto;
+    margin-left: auto;
+
+    font-family: Roboto, "Segoe UI", sans-serif;
+
+    color: rgb(173, 186, 199);
+    background-color: #22272e;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    & > .inner-wrapper {
+
+        display: block;
+
+        border: 1px solid #444c56;
+        border-radius: 6px;
+
+        & > .footer {
+
+            display: flex;
+            position: relative;
+
+            background-color: #2d333b;
+
+            border: none;
+            border-top: 1px solid #444c56;
+
+            padding: 8px;
+
+            padding-left: 16px;
+            padding-right: 16px;
+
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+
+            color: #adbac7;
+
+            & > .branding {
+
+                display: block;
+                position: relative;
+
+                margin-right: auto;
+                width: max-content;
+
+                font-size: 14px;
+                line-height: 20px;
+
+            }
+
+            & > .copyright {
+
+                display: block;
+                position: relative;
+
+                margin-left: auto;
+                width: max-content;
+
+                font-size: 14px;
+                line-height: 20px;
+
+            }
+
+        }
+
+        & > .content-wrapper {
+
+            display: block;
+
+            padding: 16px;
+
+            padding-right: 32px;
+            padding-left: 32px;
+
+            box-sizing: border-box;
+
+            & > app-sheet-body {
+
+                display: block;
+                width: 100%;
+
+                margin-right: auto;
+                margin-left: auto;
+
+            }
+
+        }
+
+    }
+
+}
+
+//#30363d
